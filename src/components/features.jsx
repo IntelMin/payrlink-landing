@@ -63,7 +63,41 @@ class features extends Component {
 
               <Col
                 xl="6"
-                className="line_side align-items-center d-xl-flex py-5"
+                className="line_side align-items-center d-none d-xl-flex py-5"
+              >
+                <div className="h-100 position-relative d-flex align-items-center">
+                  <Image
+                    src={Feature2}
+                    alt=""
+                    className="w-25 mr-5 d-none d-xl-none d-md-block"
+                  />
+                  <div className="feature_card mr-auto">
+                    <div className="text-xl-right pr-xl-5 mr-xl-4">
+                      <h3 className="text-white font-weight-bold mb-3">
+                        Decentralized Arbitration
+                      </h3>
+                      <h5 className="font-weight-normal">
+                        The recipient's address is protected by ZKP scheme, so
+                        that no one can track, even PayrLink.
+                      </h5>
+                      <h5 className="font-weight-normal">
+                        All the transactions are managed in a private manner by
+                        PayrLink.
+                      </h5>
+                      <Button
+                        variant="light font-weight-bold px-4 "
+                        className="mt-4"
+                      >
+                        Read More
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+
+              <Col
+                xl="6"
+                className="align-items-center d-flex d-xl-none py-5"
               >
                 {/* <div className="position-relative featur_img">
                                 <div>
