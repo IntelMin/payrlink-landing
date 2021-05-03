@@ -130,10 +130,9 @@ const teamData = [
   },
 ];
 
-class team extends Component {
-  render() {
-    return (
-      <>
+const team = () => {
+  return (
+    <>
         <Row className="app_secondery  px-5">
           <Col md="12" xl="12">
             <h1 className="text-white font-weight-bold mb-5 pb-3 pb-md-5 text-center">
@@ -184,8 +183,7 @@ class team extends Component {
           </Col>
         </Row>
       </>
-    );
-  }
+  );
 }
 
 export default team;

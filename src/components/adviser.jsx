@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Row, Col } from "react-bootstrap";
 import Linkdin from "../assets/linkdin.svg";
 import Github from "../assets/github.svg";
@@ -31,10 +31,10 @@ const teamData = [
   },
 ];
 
-class adviser extends Component {
-  render() {
-    return (
-      <Row className="app_secondery px-2 px-md-5 pb-5 justify-content-center">
+
+const adviser = () => {
+  return (
+    <Row className="app_secondery px-2 px-md-5 pb-5 justify-content-center">
         <Col md="12">
           <h1 className="text-white font-weight-bold my-5 pt-md-5 text-center">
             Our Advisors
@@ -81,8 +81,9 @@ class adviser extends Component {
           </Row>
         </Col>
       </Row>
-    );
-  }
+
+  );
 }
+
 
 export default adviser;

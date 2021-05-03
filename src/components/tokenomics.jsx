@@ -96,10 +96,9 @@ const icoData = [
   },
 ];
 
-class tokenomics extends Component {
-  render() {
-    return (
-      <>
+const tokenomics = () => {
+  return (
+    <>
         <Row className=" justify-content-center bg_tokenomics">
           <Col md="12" className="px-0">
             <img src={Cloud} alt="" width="100%" />
@@ -219,8 +218,7 @@ class tokenomics extends Component {
           </Col>
         </Row>
       </>
-    );
-  }
+  );
 }
 
 export default tokenomics;

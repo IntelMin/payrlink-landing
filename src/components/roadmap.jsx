@@ -1,9 +1,6 @@
-import React, { Component } from "react";
-import { Row, Col, Image, Button } from "react-bootstrap";
-import Cloud from "../assets/cloud.png";
-import Wallet from "../assets/wallet.svg";
+import React from "react";
+import { Row, Col } from "react-bootstrap";
 import Line from "../assets/line2.png";
-
 import Hand from "../assets/hand.svg";
 import Hierarchy from "../assets/hierarchy.svg";
 import Idea from "../assets/idea.svg";
@@ -12,10 +9,9 @@ import Seeting2 from "../assets/seeting2.svg";
 import SettingsG from "../assets/settings-gears.svg";
 import Web from "../assets/web.svg";
 
-class roadmap extends Component {
-  render() {
-    return (
-      <>
+const roadmap = () => {
+  return (
+    <>
         <Row className="app_secondery px-3 px-xl-5 pb-5 justify-content-center bg_roadmap">
           <Col md="12">
             <h3 className="text-white font-weight-bold my-5 py-3 py-xl-5 text-center">
@@ -222,8 +218,7 @@ class roadmap extends Component {
           </Col>
         </Row>
       </>
-    );
-  }
+  );
 }
 
 export default roadmap;

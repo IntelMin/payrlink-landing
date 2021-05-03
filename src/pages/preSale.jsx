@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import { Container, Row, Col, Button, Dropdown, Form } from "react-bootstrap";
 import Logo from "../assets/logo.png";
 import Footer2 from "../components/footer2";
@@ -11,29 +11,23 @@ import ConectWallet from "../components/conectWallet";
 
 const percentage = 25;
 
-class PreSale extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      modalShow: false,
-      connectedWallet: null,
-    };
-  }
+const PreSale = (props) => {
 
-  onChangeWallet = (data) => {
-    this.setState({ connectedWallet: data, modalShow: false });
+  const [connectedWallet, setConnectedWallet] = useState(null);
+  const [modalShow, setModalShow] = useState(false);
+
+  const onChangeWallet = (data) => {
+    setConnectedWallet(data);
+    setModalShow(false);
   };
 
-  onDisconnectWallet = () => {
-    this.setState({
-      connectedWallet: null,
-      modalShow: false,
-    });
+  const onDisconnectWallet = () => {
+    setConnectedWallet(null);
+    setModalShow(false);
   };
 
-  render() {
-    return (
-      <Container fluid className="main_layout">
+  return (
+    <Container fluid className="main_layout">
         <Row className="header py-4 px-md-5">
           <Col
             xl={12}
@@ -42,11 +36,11 @@ class PreSale extends Component {
             <div>
               <img src={Logo} alt="" />
             </div>
-            {this.state.connectedWallet === null ? (
+            {connectedWallet === null ? (
               <Button
                 variant="light"
                 className="btn_white mx-md-3"
-                onClick={() => this.setState({ modalShow: true })}
+                onClick={() => setModalShow(true)}
               >
                 Connect Wallet
               </Button>
@@ -62,16 +56,16 @@ class PreSale extends Component {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item href="#" onClick={this.onDisconnectWallet}>
+                  <Dropdown.Item href="#" onClick={onDisconnectWallet}>
                     Disconnect
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             )}
             <ConectWallet
-              show={this.state.modalShow}
-              onHide={() => this.setState({ modalShow: false })}
-              onChangeWallet={this.onChangeWallet}
+              show={modalShow}
+              onHide={() => setModalShow(false)}
+              onChangeWallet={onChangeWallet}
             />
           </Col>
         </Row>
@@ -149,10 +143,6 @@ class PreSale extends Component {
                     <img src={ETH} className="mr-2" />
                     <h3 className="mb-0">ETH</h3>
                   </div>
-                  {/* <div className="bg_gray text-right align items-center py-1 px-3 rounded">
-                                    <h3 className="mb-0 font-weight-bold">3.23</h3>
-                                    
-                                </div> */}
                   <Form.Control
                     as="input"
                     defaultValue="3.23"
@@ -194,8 +184,7 @@ class PreSale extends Component {
         </Row>
         <Footer2 />
       </Container>
-    );
-  }
+  );
 }
 
 export default PreSale;

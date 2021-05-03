@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Logo from "../assets/logo.png";
-
 import Welcome from "../components/welcome";
 import About from "../components/about";
 import Feature from "../components/features";
@@ -11,9 +10,8 @@ import Team from "../components/team";
 import Advidser from "../components/adviser";
 import Footer from "../components/footer";
 
-class landing extends Component {
-  render() {
-    return (
+const landing = () => {
+  return (
       <Container fluid className="main_layout">
         <Row className="header py-4 px-md-5">
           <Col
@@ -66,8 +64,8 @@ class landing extends Component {
         <Advidser />
         <Footer />
       </Container>
-    );
-  }
+  );
 }
 
 export default landing;
+
