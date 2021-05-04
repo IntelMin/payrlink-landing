@@ -8,6 +8,7 @@ import TimeCounter from "../components/timeCounter";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import ConectWallet from "../components/conectWallet";
+import { Link } from "react-router-dom";
 
 const percentage = 25;
 
@@ -34,7 +35,7 @@ const PreSale = (props) => {
             className="d-flex justify-content-between align-items-center"
           >
             <div>
-              <img src={Logo} alt="" />
+              <Link to="/"><img src={Logo} alt="" /></Link>
             </div>
             {connectedWallet === null ? (
               <Button
@@ -73,7 +74,7 @@ const PreSale = (props) => {
           <Col sm={12} md={12} lg={9} xl={7} className="">
             <div className=" position-relative pre_block px-5 text-center">
               <div className="app_secondery-70 pt-5">
-                <h1 className="text-white display-4 font-weight-bold py-5 mb-5">
+                <h1 className="text-white display-4 font-weight-bold py-3 mb-5">
                   Pre Sale
                 </h1>
               </div>
@@ -88,7 +89,7 @@ const PreSale = (props) => {
             </div>
           </Col>
 
-          <Col sm={12} md={12} lg={9} xl={7} className="pb-3 my-4 my-xl-5">
+          <Col sm={12} md={12} lg={9} xl={7} className="pb-3 my-4 my-xl-3">
             <Row className="px-4">
               <Col
                 sm={12}
@@ -98,8 +99,7 @@ const PreSale = (props) => {
                 className="px-5 text-center text-white "
               >
                 <div
-                  className="border_radius py-3"
-                  
+                  className="border_radius py-3 app_secondery-70 mb-5 mb-lg-0"
                 >
                   <div
                     style={{ width: 160, height: 160 }}
@@ -120,7 +120,7 @@ const PreSale = (props) => {
                   <h3 className="text-center">0 ETH / 2000</h3>
                   <div className="w-fit-content mx-auto">
                     <h6 className="text-left mb-0">Current Price</h6>
-                    <h3 className="text-left">1 ETH = 3600 PAYR</h3>
+                    <h5 className="text-left">1 ETH = 3600 PAYR</h5>
                   </div>
                 </div>
               </Col>
@@ -129,7 +129,7 @@ const PreSale = (props) => {
                 md={12}
                 lg={6}
                 xl={6}
-                className="px-3 px-md-5 h-auto"
+                className="px-5 h-auto"
               >
                 <div className="app_secondery-70 border_radius p-3 p-md-4 text-white h-100">
                   <div className="d-md-flex justify-content-md-between">
@@ -162,7 +162,7 @@ const PreSale = (props) => {
             </Row>
           </Col>
 
-          <Col sm={12} md={12} lg={9} xl={7} className="pb-3 my-4 my-xl-5">
+          <Col sm={12} md={12} lg={9} xl={7} className="pb-3 my-4 my-xl-3">
             <Row className="px-4">
               <Col sm={12} className="px-3 px-md-5">
                 <div className="app_secondery-70 border_radius p-3 py-md-4 px-md-5 text-white">

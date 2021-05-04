@@ -120,7 +120,7 @@ h1 {
     background: url(../assets/576/6.png) no-repeat center center;
   }
   .bg_presale {
-    background: url(../assets/pre-sale/400.png) no-repeat center center;
+    background: url(../assets/pre-sale/576.png) no-repeat center center;
   }
 }
 
@@ -178,7 +178,7 @@ h1 {
     background: url(../assets/768/6.png) no-repeat center center;
   }
   .bg_presale {
-    background: url(../assets/pre-sale/800.png) no-repeat center center;
+    background: url(../assets/pre-sale/768.png) no-repeat center center;
   }
 }
 
@@ -224,7 +224,7 @@ h1 {
     background: url(../assets/992/6.png) no-repeat center center;
   }
   .bg_presale {
-    background: url(../assets/pre-sale/1280.png) no-repeat center center;
+    background: url(../assets/pre-sale/992.png) no-repeat center center;
   }
 }
 
@@ -270,7 +270,7 @@ h1 {
     background: url(../assets/1200/6.png) no-repeat center center;
   }
   .bg_presale {
-    background: url(../assets/pre-sale/1600.png) no-repeat center center;
+    background: url(../assets/pre-sale/1200.png) no-repeat center center;
   }
 }
 
@@ -376,7 +376,7 @@ h1 {
 }
 
 .app_secondery-70 {
-  background-color: rgba(33, 29, 64,0.7);
+  background-color: rgba(20, 17, 50,0.7);
 }
 
 .line_side {
@@ -619,7 +619,7 @@ h1 {
   .app_secondery-70 {
     padding-bottom: 200px;
     border-radius: 0 0 15px 15px;
-    @media (max-width: 768px) {
+    @media (max-width: 767.98px) {
       padding-bottom: 100px;
     }
   }
@@ -678,4 +678,8 @@ h1 {
 
 .modal-90w {
   width: 90%;
+}
+
+.z_1000 {
+  z-index: 1000;
 }

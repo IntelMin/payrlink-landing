@@ -9,6 +9,7 @@ import Tokenomics from "../components/tokenomics";
 import Team from "../components/team";
 import Advidser from "../components/adviser";
 import Footer from "../components/footer";
+import Sticky from 'react-sticky-el';
 
 const landing = () => {
   return (
@@ -40,21 +41,23 @@ const landing = () => {
             </div>
           </Col>
         </Row>
-        <Row>
-          <Col xl="12" className="marquee_class">
-            <marquee>
-              <span>
-                News of the day ………….. News of the day ………….. News of the day
-                ………….. News of the day ………….. News of the day ………….. News of the
-                day ………….. News of the day ………….. News of the day ………….. News of
-                the day ………….. News of the day ………….. News of the day …………..
-                News of the day ………….. News of the day ………….. News of the day
-                ………….. News of the day ………….. News of the day ………….. News of the
-                day …………..{" "}
-              </span>
-            </marquee>
-          </Col>
-        </Row>
+        <Sticky stickyClassName="z_1000">
+          <Row>
+            <Col xl="12" className="marquee_class">
+              <marquee>
+                <span>
+                  News of the day ………….. News of the day ………….. News of the day
+                  ………….. News of the day ………….. News of the day ………….. News of the
+                  day ………….. News of the day ………….. News of the day ………….. News of
+                  the day ………….. News of the day ………….. News of the day …………..
+                  News of the day ………….. News of the day ………….. News of the day
+                  ………….. News of the day ………….. News of the day ………….. News of the
+                  day …………..{" "}
+                </span>
+              </marquee>
+            </Col>
+          </Row>
+        </Sticky>
         <Welcome />
         <About />
         <Feature />
