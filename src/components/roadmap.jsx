@@ -35,7 +35,7 @@ const roadmap = () => {
                       <div className="position-relative mr-xl-auto feature_card roadmap_card p-4 d-flex align-items-center justify-content-center justify-content-xl-end">
                         <div className="mr-xl-5 text-center text-xl-right">
                           <div className="d-flex d-xl-none mb-3 justify-content-center align-items-center">
-                            <img src={Idea} />
+                            <img src={Idea} alt="" />
                           </div>
                           <h6 className="text-white-50">
                             (September - October)
@@ -43,7 +43,7 @@ const roadmap = () => {
                           <h3>Idea</h3>
                         </div>
                         <div className="icon_round_left d-xl-flex d-none justify-content-center align-items-center">
-                          <img src={Idea} />
+                          <img src={Idea} alt="" />
                         </div>
                       </div>
                     </div>
@@ -56,7 +56,7 @@ const roadmap = () => {
                       <div className="position-relative ml-auto feature_card roadmap_card p-4 d-flex align-items-center justify-content-xl-start justify-content-center">
                         <div className="ml-xl-5 text-center text-xl-left">
                           <div className="d-flex d-xl-none mb-3 justify-content-center align-items-center">
-                            <img src={SettingsG} />
+                            <img src={SettingsG} alt="" />
                           </div>
                           <h6 className="text-white-50">
                             (October - December)
@@ -64,7 +64,7 @@ const roadmap = () => {
                           <h3>Market Research</h3>
                         </div>
                         <div className="icon_round d-xl-flex d-none justify-content-center align-items-center">
-                          <img src={SettingsG} />
+                          <img src={SettingsG} alt="" />
                         </div>
                       </div>
                     </div>
@@ -72,6 +72,7 @@ const roadmap = () => {
                   <div>
                     <img
                       src={Line}
+                      alt=""
                       className="icon_line_roadmap d-none d-lg-block"
                     />
                   </div>
@@ -91,7 +92,7 @@ const roadmap = () => {
                       <div className="position-relative mr-auto feature_card roadmap_card p-4 d-flex align-items-center justify-content-xl-end justify-content-center">
                         <div className="mr-xl-5 text-center text-xl-right">
                           <div className="d-flex d-xl-none mb-3 justify-content-center align-items-center">
-                            <img src={Web} />
+                            <img src={Web} alt="" />
                           </div>
                           <h6 className="text-white-50">(January)</h6>
                           <h3>
@@ -101,7 +102,7 @@ const roadmap = () => {
                           </h3>
                         </div>
                         <div className="icon_round_left d-xl-flex d-none justify-content-center align-items-center">
-                          <img src={Web} />
+                          <img src={Web} alt="" />
                         </div>
                       </div>
                     </div>
@@ -113,7 +114,7 @@ const roadmap = () => {
                       <div className="position-relative ml-auto feature_card roadmap_card p-4 d-flex align-items-center justify-content-start">
                         <div className="ml-xl-5 mx-auto text-center text-xl-left">
                           <div className="d-flex d-xl-none mb-3 justify-content-center align-items-center">
-                            <img src={Hierarchy} />
+                            <img src={Hierarchy} alt="" />
                           </div>
                           <h6 className="text-white-50">(February - March)</h6>
                           <h3>
@@ -123,14 +124,14 @@ const roadmap = () => {
                           </h3>
                         </div>
                         <div className="icon_round d-xl-flex d-none justify-content-center align-items-center">
-                          <img src={Hierarchy} />
+                          <img src={Hierarchy} alt="" />
                         </div>
                       </div>
                     </div>
                   </div>
                   <div>
                     <img
-                      src={Line}
+                      src={Line} alt=""
                       className="icon_line_roadmap d-none d-lg-block"
                     />
                   </div>
@@ -142,7 +143,7 @@ const roadmap = () => {
                       <div className="position-relative mr-auto feature_card roadmap_card p-4 d-flex align-items-center justify-content-center justify-content-xl-end">
                         <div className="mr-xl-5 text-center text-xl-right">
                           <div className="d-flex d-xl-none mb-3 justify-content-center align-items-center">
-                            <img src={Seeting2} />
+                            <img src={Seeting2} alt="" />
                           </div>
                           <h6 className="text-white-50">(April)</h6>
                           <h3>
@@ -154,7 +155,7 @@ const roadmap = () => {
                           </h3>
                         </div>
                         <div className="icon_round_left d-xl-flex d-none justify-content-center align-items-center">
-                          <img src={Seeting2} />
+                          <img src={Seeting2} alt="" />
                         </div>
                       </div>
                     </div>
@@ -166,7 +167,7 @@ const roadmap = () => {
                       <div className="position-relative ml-auto feature_card roadmap_card p-4 d-flex align-items-center justify-content-start">
                         <div className="ml-xl-5  mx-auto  text-center text-xl-left">
                           <div className="d-flex d-xl-none mb-3 justify-content-center align-items-center">
-                            <img src={Rocket} />
+                            <img src={Rocket} alt="" />
                           </div>
                           <h6 className="text-white-50">(May - June)</h6>
                           <h3>
@@ -176,14 +177,14 @@ const roadmap = () => {
                           </h3>
                         </div>
                         <div className="icon_round d-xl-flex d-none justify-content-center align-items-center">
-                          <img src={Rocket} />
+                          <img src={Rocket} alt="" />
                         </div>
                       </div>
                     </div>
                   </div>
                   <div>
                     <img
-                      src={Line}
+                      src={Line} alt=""
                       className="icon_line_roadmap d-none d-lg-block"
                     />
                   </div>
@@ -195,7 +196,7 @@ const roadmap = () => {
                       <div className="position-relative mx-auto roadmap_card p-4 d-flex align-items-center justify-content-center">
                         <div className=" text-xl-right text-center mt-5">
                           <div className="d-flex d-xl-none mb-3 justify-content-center align-items-center">
-                            <img src={Hand} />
+                            <img src={Hand} alt="" />
                           </div>
                           <h6 className="text-white-50">(June - )</h6>
                           <h3>
@@ -207,7 +208,7 @@ const roadmap = () => {
                           </h3>
                         </div>
                         <div className="icon_round d-xl-flex d-none justify-content-center align-items-center">
-                          <img src={Hand} />
+                          <img src={Hand} alt="" />
                         </div>
                       </div>
                     </div>

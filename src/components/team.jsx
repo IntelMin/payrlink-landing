@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Row, Col, Image, Button } from "react-bootstrap";
+import React from "react";
+import { Row, Col } from "react-bootstrap";
 import Linkdin from "../assets/linkdin.svg";
 import Github from "../assets/github.svg";
 import Twitter from "../assets/twitter.svg";

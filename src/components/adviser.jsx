@@ -14,7 +14,6 @@ const teamData = [
   }
 ];
 
-
 const adviser = () => {
   return (
     <Row className="app_secondery px-2 px-md-5 pb-5 justify-content-center">
@@ -74,7 +73,6 @@ const adviser = () => {
           </Row>
         </Col>
       </Row>
-
   );
 }
 

@@ -28,7 +28,7 @@ const features = () => {
               <div className="position-relative">
                 <Image src={Feature1} alt="" className="feature_img" />
                 <div className="icon_round d-flex justify-content-center align-items-center">
-                  <img src={Wallet} />
+                  <img src={Wallet} alt="" />
                 </div>
               </div>
             </div>
@@ -56,7 +56,7 @@ const features = () => {
                   </Button>
                 </div>
               </div>
-              <img src={Line} className="icon_line d-none d-xl-block" />
+              <img src={Line}  alt="" className="icon_line d-none d-xl-block" />
             </div>
           </Col>
 
@@ -147,12 +147,12 @@ const features = () => {
                       className="feature_img_right w-100"
                     />
                     <div className="icon_round_left1 d-flex justify-content-center align-items-center">
-                      <img src={Transfer} />
+                      <img src={Transfer}  alt="" />
                     </div>
                   </div>
                 </div>
               </div>
-              <img src={Line} className="icon_line d-none d-xl-block" />
+              <img src={Line}  alt="" className="icon_line d-none d-xl-block" />
             </div>
           </Col>
 
@@ -164,7 +164,7 @@ const features = () => {
               <div>
                 <Image src={Feature3} alt="" className="feature_img" />
                 <div className="icon_round d-flex justify-content-center align-items-center">
-                  <img src={Lock} />
+                  <img src={Lock}  alt="" />
                 </div>
               </div>
             </div>
@@ -195,7 +195,7 @@ const features = () => {
                   </Button>
                 </div>
               </div>
-              <img src={Line} className="icon_line d-none d-xl-block" />
+              <img src={Line}  alt="" className="icon_line d-none d-xl-block" />
             </div>
           </Col>
         </Row>

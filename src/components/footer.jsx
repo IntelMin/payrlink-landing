@@ -42,57 +42,57 @@ const footer = () => {
             <div className="pr-4 d-flex flex-column h-auto">
               <div>
                 <h5 className="mb-3">
-                  <a className="text-white font-weight-light" href="#">
+                  <a className="text-white font-weight-light" href="/">
                     WHITEPAPER
                   </a>
                 </h5>
                 <h5 className="mb-3">
-                  <a className="text-white font-weight-light" href="#">
+                  <a className="text-white font-weight-light" href="/">
                     VIDEO
                   </a>
                 </h5>
                 <h5 className="mb-3">
-                  <a className="text-white font-weight-light" href="#">
+                  <a className="text-white font-weight-light" href="/">
                     ARTICLES
                   </a>
                 </h5>
               </div>
               <div className="d-flex mt-auto">
-                <a href="#">
-                  <img src={Twitter} className="mr-2" />
+                <a href="/">
+                  <img src={Twitter}  alt="" className="mr-2" />
                 </a>
-                <a href="#">
-                  <img src={Telegram} className="mr-2" />
+                <a href="/">
+                  <img src={Telegram}  alt="" className="mr-2" />
                 </a>
-                <a href="#">
-                  <img src={Discord} className="mr-2" />
+                <a href="/">
+                  <img src={Discord}  alt="" className="mr-2" />
                 </a>
-                <a href="#">
-                  <img src={Youtube} className="mr-2" />
+                <a href="/">
+                  <img src={Youtube}  alt="" className="mr-2" />
                 </a>
-                <a href="#">
-                  <img src={Medium} className="mr-2" />
+                <a href="/">
+                  <img src={Medium}  alt="" className="mr-2" />
                 </a>
               </div>
             </div>
             <div className="pl-4 border-left">
               <h5 className="mb-3">
-                <a className="text-white font-weight-light" href="#">
+                <a className="text-white font-weight-light" href="/">
                   ESCROW SERVICE
                 </a>
               </h5>
               <h5 className="mb-3">
-                <a className="text-white font-weight-light" href="#">
+                <a className="text-white font-weight-light" href="/">
                   ARBITRATION CENTER
                 </a>
               </h5>
               <h5 className="mb-3">
-                <a className="text-white font-weight-light" href="#">
+                <a className="text-white font-weight-light" href="/">
                   FARM
                 </a>
               </h5>
               <h5 className="mb-3">
-                <a className="text-white font-weight-light" href="#">
+                <a className="text-white font-weight-light" href="/">
                   BUY TOKENS
                 </a>
               </h5>
@@ -100,7 +100,7 @@ const footer = () => {
           </div>
         </Col>
         <Col xl="2" className="text-center mt-5">
-          <Image src={Logo} fluid />
+          <Image src={Logo}  alt="" fluid />
         </Col>
       </Row>
       <Row>

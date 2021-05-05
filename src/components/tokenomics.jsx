@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Row, Col } from "react-bootstrap";
 import Cloud1 from "../assets/cloud1.png";
 import { Doughnut } from "react-chartjs-2";
@@ -116,8 +116,8 @@ const tokenomics = () => {
                   data={data}
                   width={60}
                   height={60}
-                  options={{ maintainAspectRatio: false }}
                   options={{
+                    maintainAspectRatio: false,
                     cutoutPercentage: 70,
                     tooltips: {
                       enabled: true,
@@ -138,7 +138,7 @@ const tokenomics = () => {
                 {data1.map((e) => (
                   <tr>
                     <td>
-                      <img src={e.icon} className="mb-2 mr-3" height={20} />
+                      <img src={e.icon} alt="" className="mb-2 mr-3" height={20} />
                     </td>
                     <td>
                       <h5 className="mb-2 mr-5 text-right">{e.perc}</h5>

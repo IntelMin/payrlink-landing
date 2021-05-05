@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Logo from "../assets/logo.png";
 import Welcome from "../components/welcome";

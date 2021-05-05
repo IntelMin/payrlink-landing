@@ -1,11 +1,10 @@
 import React from "react";
-import { Row, Col, Button, Image } from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
 import logo1 from "../assets/1.svg";
 import logo2 from "../assets/2.svg";
 import logo3 from "../assets/3.svg";
 import logo4 from "../assets/4.svg";
 import logo5 from "../assets/5.svg";
-import Img1 from "../assets/image2.png";
 
 const welcome = () => {
   return (

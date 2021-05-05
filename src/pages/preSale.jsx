@@ -52,7 +52,7 @@ const PreSale = (props) => {
                   className="btn_white"
                   id="dropdown-basic"
                 >
-                  <img src={Wallet} className="mr-1" />
+                  <img src={Wallet} alt="" className="mr-1" />
                   0X13484****79
                 </Dropdown.Toggle>
 
@@ -140,7 +140,7 @@ const PreSale = (props) => {
                     className="bg_gray d-flex align-items-center m py-1 px-3 rounded my-3 ml-auto"
                     style={{ width: "fit-content" }}
                   >
-                    <img src={ETH} className="mr-2" />
+                    <img src={ETH} alt="" className="mr-2" />
                     <h3 className="mb-0">ETH</h3>
                   </div>
                   <Form.Control
