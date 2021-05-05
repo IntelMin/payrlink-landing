@@ -147,12 +147,13 @@ const PreSale = (props) => {
                     as="input"
                     defaultValue="3.23"
                     className="input_bg_gray border-0 py-0 text-right text-white text-large"
+                    style={{height:"38px"}}
                   />
                   <h5 className="text-right text-white-50">Max: 7.247</h5>
                   <div className="mt-3">
                     <Button
                       variant="light"
-                      className="btn_white mx-md-3 w-fill-available"
+                      className="btn_white w-fill-available"
                     >
                       CONTRIBUTE
                     </Button>
