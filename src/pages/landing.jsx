@@ -45,7 +45,7 @@ const landing = () => {
           <Row>
             <Col xl="12" className="marquee_class">
               <marquee>
-                <span>
+                <h6 className="text-white py-2 mb-0">
                   News of the day ………….. News of the day ………….. News of the day
                   ………….. News of the day ………….. News of the day ………….. News of the
                   day ………….. News of the day ………….. News of the day ………….. News of
@@ -53,7 +53,7 @@ const landing = () => {
                   News of the day ………….. News of the day ………….. News of the day
                   ………….. News of the day ………….. News of the day ………….. News of the
                   day …………..{" "}
-                </span>
+                </h6>
               </marquee>
             </Col>
           </Row>
