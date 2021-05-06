@@ -12,6 +12,7 @@ import "react-circular-progressbar/dist/styles.css";
 import ConectWallet from "../components/conectWallet";
 import { Link } from "react-router-dom";
 import * as utils from '../blockchain/utils';
+import usePayr from '../hooks/usePayr';
 
 const percentage = 25;
 
@@ -19,6 +20,29 @@ const PreSale = (props) => {
 
   const [modalShow, setModalShow] = useState(false);
   const { account, reset } = useWallet();
+  const [salesData, setSalesData] = useState({});
+  const [ethBalance, setEthBalance] = useState(0);
+  const payr = usePayr();
+  
+  useEffect(() => {
+    utils.getCrowdsaleData()
+      .then(data => {
+        setSalesData(data);
+      })
+      .catch(console.log);
+  }, []);
+
+  useEffect(() => {
+    if (account) {
+      utils.getEthBalance(account)
+        .then(balance => {
+          setEthBalance(balance);
+        })
+        .catch(console.log);      
+    }
+  }, [account]);
+
+  console.log(salesData);
 
   const onDisconnectWallet = () => {
     reset();

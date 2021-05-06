@@ -87,7 +87,6 @@ const PayrProvider = ({ children }) => {
         ethereumNodeTimeout: 10000,
       });
       setPayr(payrObj);
-      window.payr = payrObj;
     }
   }, [ethereum]);
 

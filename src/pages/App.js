@@ -3,7 +3,7 @@ import { UseWalletProvider } from 'use-wallet';
 import "../scss/App.scss";
 import Route from "../route/index";
 
-import WalletProvider from '../contexts/WalletProvider';
+import PayrProvider from '../contexts/PayrProvider';
 import * as utils from '../blockchain/utils';
 
 function App() {
@@ -28,9 +28,9 @@ const Providers = ({ children }) => {
         walletconnect: { rpcUrl }
       }}
     >
-      <WalletProvider>
+      <PayrProvider>
         {children}
-      </WalletProvider>
+      </PayrProvider>
     </UseWalletProvider>
   )
 }

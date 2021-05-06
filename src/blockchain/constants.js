@@ -1,15 +1,16 @@
 
 export const chainId = 42;
 
-export const rpcUrl = "https://kovan.infura.io/v3/cb76dcac4ae3402fb421b2b0d4c28db3/";
+export const rpcUrl = "https://kovan.infura.io/v3/2377373e9cc84228a6cea33645b511ea";
+//export const rpcUrl = "wss://kovan.infura.io/ws/v3/2377373e9cc84228a6cea33645b511ea";
 
 export const addresses = {
-  payr: {
+  payrtoken: {
     42: '0xd9142C0b793ae749D5664719314b96192cda2bE9',
     1: '0x0',
   },
   crowdsale: {
-    42: '0x20550EFDe02A3698daaeb9C15CE6A9De80993235',
+    42: '0x5c9C984884c62Ab5dE11A1526c78d4c430F93891',
     1: '0x0',
   },
   weth: {
